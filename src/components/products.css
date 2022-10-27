@@ -1,0 +1,8 @@
+.list-container div{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+.sigle-item {
+    display: flex !important;
+    flex-direction: column;
+}

@@ -1,0 +1,20 @@
+.page-number{
+    display: flex;
+    justify-content: center;
+}
+.page-number li{
+    list-style: none;
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.page-number li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.page-number li.selected{
+    color: #fff;
+    background: #333;
+}
